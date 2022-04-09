@@ -1,0 +1,39 @@
+.task
+{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 2px solid rgb(25, 25, 29);
+}
+
+.task__text 
+{
+    margin: 10px 0;
+    text-align: center;
+    word-break: break-all;
+}
+
+.task__buttons-container 
+{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.task__button
+{
+    margin: 0 4px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: 2px solid white;
+    background-color: white;
+    transition: 0.1s all;
+}
+
+.task__button:hover 
+{
+    color: white;
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+}

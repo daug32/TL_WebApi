@@ -1,0 +1,58 @@
+.app
+{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app__input
+{
+    min-width: 200px;
+    height: 20px;
+}
+
+.app__input:focus
+{
+    outline: none;
+}
+
+.app__button
+{
+    border: 0;
+    padding: 5px;
+}
+
+.app__tasks-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app__tasks-list-container
+{
+    width: 30%;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app__tasks-statement-block
+{
+    width: 100%;
+}
+
+.app__tasks-header
+{
+    width: 100%;
+    text-align: center;
+}
+
+.app__task
+{
+    width: 100%;
+}

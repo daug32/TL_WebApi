@@ -1,0 +1,12 @@
+<div class="task">
+    <p class="task__text text">{{ task.title }}</p>
+    <div class="task__buttons-container">
+        <button class="task__button" (click)="delete()">Delete</button>
+        <button 
+            *ngIf="!task.isDone" 
+            class="task__button" 
+            (click)="complete()">
+            Mark as completed
+        </button>
+    </div>
+</div>
