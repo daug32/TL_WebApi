@@ -21,30 +21,30 @@ export class TaskService
     {
         let taskDto: TaskDto = 
         {
-            Id: 0,
-            Title: taskTitle,
-            IsDone: false
+            id: 0,
+            title: taskTitle,
+            isDone: false
         };
         return this.http.post( `${this._todoConttrollerUrl}/create`, taskDto );
     }
 
     public Complete( taskId: number )
     {
-        this.http.put( `${this._todoConttrollerUrl}/${taskId}/complete`, `` ).subscribe();
+        this.http.put( `${this._todoConttrollerUrl}/complete/${taskId}`, `` ).subscribe();
     }
 
     public Delete( taskId: number )
     {
-        this.http.delete( `${this._todoConttrollerUrl}/${taskId}/delete` ).subscribe();
+        this.http.delete( `${this._todoConttrollerUrl}/delete/${taskId}` ).subscribe();
     }
 
     public ParseDto( dto: TaskDto ) : Task
     {
         let task: Task = 
         {
-            id: dto.Id,
-            title: dto.Title,
-            isDone: dto.IsDone
+            id: dto.id,
+            title: dto.title,
+            isDone: dto.isDone
         };
         return task;
     }
@@ -53,9 +53,9 @@ export class TaskService
     {
         let dto: TaskDto = 
         {
-            Id: task.id,
-            Title: task.title,
-            IsDone: task.isDone
+            id: task.id,
+            title: task.title,
+            isDone: task.isDone
         };
         return dto;
     }

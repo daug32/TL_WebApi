@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "To-Do-List-Backend", "To-Do-List-Backend.csproj", "{4E4F240C-857F-4171-991C-C490FB7F3701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend.csproj", "{4E4F240C-857F-4171-991C-C490FB7F3701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{FC852204-20E8-417B-BC0C-8D77AEF21D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "..\Tests\Tests.csproj", "{FC852204-20E8-417B-BC0C-8D77AEF21D0C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingStation", "..\TestingStation\TestingStation.csproj", "{5CD73996-D322-4DAF-8776-79857B9CAF2C}"
 EndProject

@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "To_Do_List_Backend": {
+    "TodoList": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchUrl": "",

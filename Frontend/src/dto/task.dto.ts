@@ -1,6 +1,6 @@
 export interface TaskDto
 {
-    Id: number;
-    Title: string;
-    IsDone: boolean;
+    id: number;
+    title: string;
+    isDone: boolean;
 }   

@@ -1,5 +1,5 @@
-using To_Do_List_Backend.Repositories;
-using To_Do_List_Backend.Services;
+using TodoList.Repositories;
+using TodoList.Services;
 
 var builder = WebApplication.CreateBuilder( args );
 
