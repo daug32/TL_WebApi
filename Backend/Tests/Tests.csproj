@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Backend\Backend.csproj" />
     <ProjectReference Include="..\TodoList_Backend\Backend.csproj" />
   </ItemGroup>
 
